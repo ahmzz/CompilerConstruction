@@ -1,0 +1,11 @@
+/* Program to match the Guessed number */
+num hidden = 3 ;
+num guess ;
+myOutput : " Enter (1 - 10) to guess the hidden number " ;
+cin >> guess ;   //take input in variable guess
+myIf [ guess < hidden ]
+   myOutput: "Your number is smaller" ;
+myElse if [guess > hidden]
+   myOutput: "Your number is greater" ;
+myElse
+   myOutput: "You GUESSED the exact number..." ;
